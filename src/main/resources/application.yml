@@ -9,7 +9,7 @@ spring:
       # url中，jdbc指我们使用jdbc的驱动方式连接数据库；mysql表示连接的数据库类型是mysql;localhost是数据库的具体地址；3306是数据库的端口号；sleeve是数据库名；characterEncoding设置编码格式；serverTimezone设置时区，GMT%2B8表示的是东8时区也就是北京时间。
       url: jdbc:mysql://localhost:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: root
-      password: "981022yh"
+      password: 981022yh
 mybatis-plus:
   configuration:
     #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射
