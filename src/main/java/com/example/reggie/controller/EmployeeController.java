@@ -39,7 +39,7 @@ public class EmployeeController {
          * 6、登录成功，将员工id存入session并返回登录成功提示
          */
         //1、将页面提交的密码password进行md5加密
-        employeeService.test();
+//        employeeService.test();
         String password = employee.getPassword();
         password = DigestUtils.md5DigestAsHex(password.getBytes());
 
